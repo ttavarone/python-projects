@@ -4,5 +4,8 @@ This is a repository of all the Python projects that I attempt. (Python3)  I am 
 ## Random Link
 Heres a [link](https://guides.github.com/features/mastering-markdown/) for markdown...
 
+## Official-ness
+This whole thing looks a bit more *official* with a readme file that uses markdown
+
 ## Additional Ramblings about the repository
 I just decided to add everything to this repository.  It will look like I update Github more regularly.  I am practicing using python and there are a ton of different project ideas that I have.  This is the best way for me to keep track of them.
