@@ -1,0 +1,4 @@
+*.cmake
+*.bin
+*.dir
+*.DS_Store

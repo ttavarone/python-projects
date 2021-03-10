@@ -1,0 +1,7 @@
+output.txt
+
+.env
+.python-version
+__pycache__
+
+*.swp

@@ -1,0 +1,9 @@
+import string
+
+def cipherize(str, shift):
+	letters = string.ascii_lowercase
+	mask = letters[shift:] + letters[:string]
+	table = string.makeTrans(letters, mask)
+	return translate(table)
+
+cipherize("tucker", 2)
