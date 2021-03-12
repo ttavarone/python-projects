@@ -29,4 +29,4 @@ else:
     recommendation = "The temperature is too extreme, use your judgement."
 
 print("The current temperature is "+str(temp)+degree_sign)
-print(recommendation)​
+print(recommendation)
