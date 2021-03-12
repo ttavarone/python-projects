@@ -1,6 +1,0 @@
-*.cmake
-*.bin
-*.dir
-*.DS_Store
-opencv*
-build_opencv*
