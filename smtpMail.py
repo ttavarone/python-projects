@@ -6,12 +6,16 @@ password = 'hyrdetxanptsxrhg'
 
 recipient = 'ttavarone@me.com'
 
-subject = ''
-body = ''
+subject = 'B=D'
+body = 'Penis'
 
 smtpObj = smtplib.SMTP(smtpServer, 587)
 smtpObj.ehlo()
 smtpObj.starttls()
 smtpObj.login(loginEmail, password)
-smtpObj.sendmail(loginEmail, recipient, 'Subject: '+subject+' \n'+body)
+for x in range(1):
+	smtpObj.sendmail(loginEmail, recipient, 'Subject: '+subject+str(x)+' \n'+body)
+	body += body[1:]
+	# for y in range(10**x):
+	# 	body += "penis"
 smtpObj.quit()
